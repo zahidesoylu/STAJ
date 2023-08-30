@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>SYL BANK</title>
     <link rel="stylesheet" href="css.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
@@ -34,7 +34,7 @@
             </ul>
             <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Arama Yap" aria-label="Search">
-                <button class="btn btn-dark" type="submit">Search</button>
+                <button class="btn btn-primary" type="submit">Search</button>
             </form>
         </div>
     </div>
@@ -123,7 +123,7 @@
     </div>
     <div class="row">
         <div class="card-group">
-            <div class="card">
+            <div class="card mr-3">
                 <img src="img/business.png" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title">BUSINESS KART</h5>
@@ -135,7 +135,7 @@
                     <a href="#" class="btn btn-primary">BAŞVUR</a>
                 </div>
             </div>
-            <div class="card">
+            <div class="card mr-3">
                 <img src="img/platinum.png" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title">PLATINUM KART</h5>
@@ -277,51 +277,26 @@
 
 <div class="container">
     <div class="card">
-        <div class="card-header">
-            İLETİŞİM
-        </div>
+        <div class="card-header">İLETİŞİM</div>
         <div class="card-body">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+                <p><strong>Adres:</strong> 1234 Sokak No:56 İSTANBUL TÜRKİYE</p>
+                <p><strong>Telefon:</strong> +90 123 456 78 90</p>
+                <p><strong>E-posta:</strong> iletişim@sylbank.com</p>
+                <p><strong>Web Sitesi:</strong> <a href="http://www.sylbank.com">www.sylbank.com</a></p>
         </div>
     </div>
 </div>
 
-
 <br><br>
 
-
-
-
-<main class="flex-shrink-0">
-    <div class="container">
-        <h1 class="mt-5">Sticky footer</h1>
-        <p class="lead">Pin a footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS.</p>
-        <p>Use <a href="/docs/5.3/examples/sticky-footer-navbar/">the sticky footer with a fixed navbar</a> if need be, too.</p>
-    </div>
-</main>
-
-<script>
-    function hesapla() {
-        const form = document.getElementById("kredi-form");
-        const krediTur = form.elements["krediTur"].value;
-        const krediTutar = form.elements["krediTutar"].value;
-        // Vade süresi verilerini de burada alabilirsiniz
-
-        // Hesaplamaları yapın
-        const aylıkOdeme = "Aylık Ödeme"; // Hesaplama burada yapılacak
-        const toplamOdeme = "Toplam Ödeme"; // Hesaplama burada yapılacak
-
-        // Sonuçları görüntüleyin
-        document.getElementById('kredi-tutar-sonuc').textContent = `${krediTutar} TL`;
-        document.getElementById('kredi-turu-sonuc').textContent = krediTur;
-        document.getElementById('aylik-odeme-sonuc').textContent = `${aylıkOdeme} TL`;
-        document.getElementById('toplam-odeme-sonuc').textContent = `${toplamOdeme} TL`;
-    }
-</script>
-
+<div class="footer mt-2">
+    <div class="text-center"><br><br>
+            <p><strong>KİŞİSEL VERİLERİN KORUNMASI</strong></p>
+            <p><strong>GİZLİLİK</strong> </p>
+            <p><strong>HAKKIMIZDA</strong> </p>
+            <p><strong>SÖZLEŞMELER</strong> </p><br><br>
+        </div>
+</div>
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>

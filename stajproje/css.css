@@ -1,8 +1,49 @@
 .navbar {
-    background-image: url("img/navbarbg.png");
+    background-color: #4eb3ff;
 }
 
 
 #fm{
-    background-color: #A5BBC8;
+    background-color: #4eb3ff;
+}
+
+.footer{
+    background-color: #4eb3ff;
+}
+
+.card-header{
+    background-color: black;
+}
+
+
+.card-group {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+}
+
+.card {
+    flex: 0 0 calc(33.33% - 30px); /* Kartların yatay genişliğini ayarlar */
+    margin-: 20px; /* Kartlar arasında yatay boşluk bırakır */
+}
+
+.center-legend {
+    text-align: center;
+}
+
+.center-button {
+    text-align: center;
+}
+
+
+.container.form {
+    border: 4px solid #2196F3;
+    padding: 20px;
+    border-radius: 10px;
+    background-image: url("C:\Users\ZAHİDE\Desktop\YAZILIM\stajproje\img\kf.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat; /* Tekrar etmesini engelle */
+
+
 }
